@@ -1,0 +1,13 @@
+[package]
+name = "flutter_cpal_wrapper"
+version = "0.1.0"
+authors = ["Verena Zaiser <development@verena-zaiser.de>"]
+edition = "2021"
+
+[lib]
+name = "play_once"
+crate-type = ["cdylib"]
+
+[dependencies]
+rodio = "0.15.0" #added rodio library
+cpal = "0.13.5"
